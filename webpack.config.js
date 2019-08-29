@@ -10,7 +10,6 @@ module.exports = env => {
       path: path.join(__dirname, "public"),
       filename: "bundle.js"
     },
-    mode: "development",
     plugins: [
       new MiniCssExtractPlugin({
         filename: "styles.css",
